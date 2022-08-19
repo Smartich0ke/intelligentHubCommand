@@ -1,0 +1,8 @@
+name: IntelligentHubCommand
+version: '${project.version}'
+main: com.nikolaipatrick.intelligenthubcommand.IntelligentHubCommand
+api-version: 1.19
+prefix: [ intelliHubCmd ]
+authors: [ Nikolaipatrick ]
+description: A simple plugin to create a hub command that sends you to the right hub depending on the world
+website: nikolaipatrick.com
