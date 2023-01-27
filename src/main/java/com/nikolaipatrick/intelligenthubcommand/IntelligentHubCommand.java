@@ -7,11 +7,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 
+@SuppressWarnings("DataFlowIssue")
 public final class IntelligentHubCommand extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("Starting IntelligentHubCommand v1.0.0 for ArtichokeMC...");
+        getLogger().info("Starting IntelligentHubCommand v1.1.0 for ArtichokeMC...");
         getLogger().info("A Nikolai Patrick plugin - 2022");
         getCommand("hub").setExecutor(new commandHub());
         getCommand("lobby").setExecutor(new commandHub());
